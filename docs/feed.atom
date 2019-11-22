@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>https://jakprzytyc.pl/</id>
+	<title>Jak przytyć?</title>
+	<link rel="self" href="https://jakprzytyc.pl/" />
+	<rights>2019</rights>
+	<updated>2019-11-22T12:04:20Z</updated>
+	<subtitle>Jak szybko ale zdrowo przybrać na wadze</subtitle>
+	<entry>
+		<id>https://jakprzytyc.pl/posts/dowcipy-o-grubych</id>
+		<title>Pożartujmy sobie trochę z grubych</title>
+		<link href="https://jakprzytyc.pl/posts/dowcipy-o-grubych" />
+		<updated>2019-11-22T12:15:00Z</updated>
+		<content>&lt;p&gt;#1&lt;/p&gt;
+&lt;blockquote&gt;
+Mały Jasiu jedzie z mamą w tramwaju.&lt;br /&gt;
+W pewnym momencie nagle krzyczy:&lt;br /&gt;
+- Patrz mamo jaka gruba baba! Ona ma brzuch, aż na kolanach!&lt;br /&gt;
+Zawstydzona mama wzięła Jasia za rękę i wysiadła.&lt;br /&gt;
+Tłumaczy malcowi:&lt;!--more--&gt;&lt;br /&gt;
+- Jasiu takich rzeczy nie mówi się na głos, o tym możemy sobie porozmawiać w domu!&lt;br /&gt;
+Jadą z powrotem tramwajem i znowu ta sama baba siedzi.&lt;br /&gt;
+A Jasio krzyczy:&lt;br /&gt;
+- Mamo o tej grubej babie to my sobie w domu pogadamy, nie?
+&lt;/blockquote&gt;
+&lt;p&gt;#2&lt;/p&gt;
+&lt;blockquote&gt;
+Dlaczego panny są szczuplejsze niż mężatki?&lt;br /&gt;
+- Bo panna jak przychodzi do domu patrzy co jest w lodówce i idzie do łóżka. Mężatka natomiast przychodzi do domu, patrzy co jest w łóżku i idzie do lodówki.
+&lt;/blockquote&gt;
+&lt;!--
+
+            &lt;div class='row' aria-hidden='true'&gt;
+                &lt;figure class='col-md-8 col-md-offset-2'&gt;
+                    &lt;div class='thumbnail'&gt;
+                        &lt;picture&gt;  &lt;source srcset='/assets/posts/dowcipy-o-grubych/dowcipy-o-grubych-tramwaj.webp' type='image/webp' /&gt;  &lt;source srcset='/assets/posts/dowcipy-o-grubych/dowcipy-o-grubych-tramwaj.webp' type='image/webp' /&gt;  &lt;source srcset='/assets/posts/dowcipy-o-grubych/dowcipy-o-grubych-tramwaj.webp' type='image/webp' /&gt;  &lt;img class='img-responsive img-generated' src='/assets/posts/dowcipy-o-grubych/dowcipy-o-grubych-tramwaj.webp' alt='' /&gt;&lt;/picture&gt;
+                        &lt;div class='caption'&gt;
+                            &lt;figcaption&gt;Rys. 1. Ilustracja. Źródło: &lt;a href='https://www.flickr.com/photos/dani_abarca/24628998598/' rel='nofollow' target='_blank'&gt;Daniela Abarca&lt;/a&gt;
+                            &lt;/figcaption&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/figure&gt;
+            &lt;/div&gt;
+--&gt;
+&lt;p&gt;Dorzucicie coś? ;)&lt;/p&gt;
+&lt;p&gt;PS. Potraktujcie ten post z przymrużeniem oka. Najtrudniej jest zacząć, a jedyny cel tego artykułu to właśnie wystartowanie bloga.&lt;/p&gt;
+</content>
+		<summary>Mały Jasiu jedzie z mamą w tramwaju.
+W pewnym momencie nagle krzyczy:
+- Patrz mamo jaka gruba baba! Ona ma brzuch, aż na kolanach!
+Zawstydzona mama wzięła Jasia za rękę i wysiadła.
+Tłumaczy malcowi:</summary>
+	</entry>
+</feed>

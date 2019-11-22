@@ -1,0 +1,10 @@
+as of 2018:
+* twitter:image: recommended: 120x120.
+* facebook / open graph:  recommended min 1200x630
+* facebook / open graph square fallback: recommended min 200x200
+* linkedin: 1200x627
+
+Decisions:
+* provide 1200x627 for Facebook and LinkedIn
+* provide 600x600 square image in anticipation of high-DPI views in Twitter and other
+* provide 150x150 square image for internal use on my site
