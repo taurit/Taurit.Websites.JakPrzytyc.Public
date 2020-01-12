@@ -7,7 +7,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="manifest" href="/manifest.json">
         <title>Jak przytyć?</title>
-        <meta name="description" content="Jak szybko ale zdrowo przybrać na wadze" />
+        <!-- Weight tracker widget -->
+        <base href="/"/>
+        <link href="/static/css/2.b90ce945.chunk.css" rel="stylesheet">
+        <link href="/static/css/main.ed037f7e.chunk.css" rel="stylesheet">
+        <meta name="description" content="Jak szybko przybrać na wadze" />
         <!--[if IE 8]>
             <script src="//cdnjs.cloudflare.com/ajax/libs/ie8/0.6.0/ie8.js"></script>
         <![endif]-->
@@ -39,13 +43,13 @@
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://jakprzytyc.pl/" />
         <meta name="twitter:title" content="Jak przytyć?" />
-        <meta name="twitter:description" content="Jak szybko ale zdrowo przybrać na wadze" />
+        <meta name="twitter:description" content="Jak szybko przybrać na wadze" />
         <meta name="twitter:image" content="https://jakprzytyc.pl/assets/img/icon.png" />
 
         <meta property="og:title" content="Jak przytyć?" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jakprzytyc.pl/" />
-        <meta property="og:description" content="Jak szybko ale zdrowo przybrać na wadze" />
+        <meta property="og:description" content="Jak szybko przybrać na wadze" />
 
 
 
@@ -115,7 +119,7 @@
 
         <hr class="small">
     <span class="subheading">
-        Jak szybko ale zdrowo przybrać na wadze
+        Jak szybko przybrać na wadze
     </span>
 
 </div>
@@ -132,10 +136,11 @@
 <div class="row">
     <section class="col-sm-8 right-border" itemscope itemtype="http://schema.org/Blog">
         <h1 class="outline-header">Najnowsze artykuły</h1>
+
                     <article class="post-preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                         <!-- Title -->
                         <a itemprop="mainEntityOfPage" href="/posts/jedz-wiecej-nutelli">
-                            <h2 class="media-heading post-title" itemprop="name headline">Jedz więcej Nutelli!</h2>
+                            <h2 class="media-heading post-title" itemprop="name headline">Jedz więcej Nutelli</h2>
                         </a>
 
                         <!-- Author -->
@@ -170,7 +175,7 @@
                                     <picture>
         <source srcset="/assets/posts/jedz-wiecej-nutelli/jedz-wiecej-nutelli.150x150.webp" type="image/webp">
                                         <source srcset="/assets/posts/jedz-wiecej-nutelli/jedz-wiecej-nutelli.150x150.jpg" type="image/jpeg">
-                                        <img class="media-object post-thumbnail" itemprop="contentUrl" src="/assets/posts/jedz-wiecej-nutelli/jedz-wiecej-nutelli.150x150.jpg" alt="Jedz więcej Nutelli!">
+                                        <img class="media-object post-thumbnail" itemprop="contentUrl" src="/assets/posts/jedz-wiecej-nutelli/jedz-wiecej-nutelli.150x150.jpg" alt="Jedz więcej Nutelli">
                                      </picture>
 
                                         <!-- Structured metadata for thumbnail image -->
@@ -182,7 +187,7 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <p>Pierwszą radą, którą usłyszałem marudząc w gronie znajomych, że nie mogę przybrać na wadze było: <strong>"nic prostszego! jedz więcej Nutelli!"</strong></p>
+                                <p>Pierwszą radą, którą usłyszałem marudząc w gronie znajomych, że nie mogę przybrać na wadze było: <strong>"nic prostszego! jedz więcej Nutelli!"</strong>.</p>
 
                                 <p class="read-more"><a itemprop="url" href="/posts/jedz-wiecej-nutelli" tabindex="-1">Czytaj całość &raquo;</a>
                                 </p>
@@ -256,6 +261,12 @@ Tłumaczy malcowi:
         <hr class="visible-xs-block" />
 
         <aside class="mailchimp-form mailchimp-sidebar">
+            <h1>Twoja waga</h1>
+            <div id="weight-tracker-widget" style="box-sizing: content-box;"></div>
+
+        </aside>
+
+        <aside class="mailchimp-form mailchimp-sidebar">
             <h1>Dołącz do grupy</h1>
 
             <p>Robiąc coś wspólnie trudniej się wykręcić i łatwiej zmotywować.</p>
@@ -302,8 +313,6 @@ Tłumaczy malcowi:
                 <li>Jak zrobić to szybko i zdrowo?</li>
             </ul>
 
-            <p>Sam jestem po stronie osób, którym przybranie na wadze nie przychodzi naturalnie. Rozumiem doskonale, że mając zbyt szczupłą sylwetkę - podobnie jak w przypadku otyłości - można nie czuć się dobrze.</p>
-
             <p>Na tej stronie znajdziesz odpowiedzi na wyżej przytoczone pytania i wiele innych. Baw się dobrze!</p>
 
             <p>Paweł</p>
@@ -313,7 +322,11 @@ Tłumaczy malcowi:
 </div>
 <script id="dsq-count-scr" src="//jak-przytyc.disqus.com/count.js" async></script>
 
-
+<!-- weight tracking widget -->
+<script src="https://apis.google.com/js/platform.js?hl=pl" async defer="defer"></script>
+<script>!function (f) { function e(e) { for (var t, r, n = e[0], o = e[1], u = e[2], i = 0, a = []; i < n.length; i++)r = n[i], Object.prototype.hasOwnProperty.call(c, r) && c[r] && a.push(c[r][0]), c[r] = 0; for (t in o) Object.prototype.hasOwnProperty.call(o, t) && (f[t] = o[t]); for (s && s(e); a.length;)a.shift()(); return p.push.apply(p, u || []), l() } function l() { for (var e, t = 0; t < p.length; t++) { for (var r = p[t], n = !0, o = 1; o < r.length; o++) { var u = r[o]; 0 !== c[u] && (n = !1) } n && (p.splice(t--, 1), e = i(i.s = r[0])) } return e } var r = {}, c = { 1: 0 }, p = []; function i(e) { if (r[e]) return r[e].exports; var t = r[e] = { i: e, l: !1, exports: {} }; return f[e].call(t.exports, t, t.exports, i), t.l = !0, t.exports } i.m = f, i.c = r, i.d = function (e, t, r) { i.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r }) }, i.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, i.t = function (t, e) { if (1 & e && (t = i(t)), 8 & e) return t; if (4 & e && "object" == typeof t && t && t.__esModule) return t; var r = Object.create(null); if (i.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: t }), 2 & e && "string" != typeof t) for (var n in t) i.d(r, n, function (e) { return t[e] }.bind(null, n)); return r }, i.n = function (e) { var t = e && e.__esModule ? function () { return e.default } : function () { return e }; return i.d(t, "a", t), t }, i.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, i.p = "/"; var t = this["webpackJsonptaurit.perfectdiet.weighttracker.web"] = this["webpackJsonptaurit.perfectdiet.weighttracker.web"] || [], n = t.push.bind(t); t.push = e, t = t.slice(); for (var o = 0; o < t.length; o++)e(t[o]); var s = n; l() }([])</script>
+<script src="/static/js/2.8204e43d.chunk.js"></script>
+<script src="/static/js/main.57c4e3d3.chunk.js"></script>
                 </div>
             </div>
         </div>

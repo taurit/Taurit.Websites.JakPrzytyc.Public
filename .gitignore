@@ -322,3 +322,8 @@ docs/input.proj.DotSettings
 docs/packages.config
 docs/assets/posts/**/*.hq.jpg
 docs/posts/.vscode/spellright.dict
+docs/.sync/
+docs/.vscode/spellright.dict
+docs/drafts/
+docs/.markdownlint.yaml
+docs/favicon.txt
